@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['card']
+
+roboflow:
+  workspace: cards-ygqcw
+  project: cards-1kpqq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cards-ygqcw/cards-1kpqq/dataset/1
